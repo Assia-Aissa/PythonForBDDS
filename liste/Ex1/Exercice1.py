@@ -8,6 +8,23 @@ a=10
 print(chercher(a,lista))
             # Utiliser T.index(i) peut causer des problèmes 
             # si x est trouvé à un autre index que le premier
+            ###########################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
 def chercherVersion2(x,T):
     for index in range(len(T)):
         if T[index]==x:

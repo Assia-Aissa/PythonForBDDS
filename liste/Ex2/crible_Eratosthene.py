@@ -7,10 +7,10 @@ def est_Premier(p):
     return True
 
 def trouver_premiers(n):
-    # Liste pour stocker les nombres premiers trouvés
+   
     nombres_premiers = []
     for p in range(2, n):
-        # On utilise est_Premier pour vérifier si p est un nombre premier
+        
         if est_Premier(p):
             nombres_premiers.append(p)
     return nombres_premiers
@@ -18,6 +18,20 @@ def trouver_premiers(n):
 # Exemple d'utilisation
 n = 30
 print(f"Les nombres premiers inférieurs à {n} sont : {trouver_premiers(n)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###################################333
 
 # version 2:
