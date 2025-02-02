@@ -30,3 +30,5 @@ def binaire3(N, MyLisst):
     return list(reversed(MyLisst))
     #return ''.join(map(str, reversed(MyLisst)))
 print(binaire3(8, []))
+#----------------------
+

@@ -11,19 +11,6 @@ print(chercher(a,lista))
             ###########################
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
             
 def chercherVersion2(x,T):
     for index in range(len(T)):
